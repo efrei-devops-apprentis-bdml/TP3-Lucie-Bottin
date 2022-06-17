@@ -35,7 +35,7 @@ jobs:
           registry-login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
           registry-username: ${{ secrets.REGISTRY_USERNAME }}
           registry-password: ${{ secrets.REGISTRY_PASSWORD }}
-          environment-variables: API_KEY="240aa650f4db4e154a07d0459c30a347"
+          environment-variables: API_KEY = ${{ secrets.API_KEY }
           name: "20180304"
           ports:
               80
