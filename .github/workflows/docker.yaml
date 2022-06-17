@@ -17,7 +17,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: 'Check with Hadolint'
-      - uses: actions/checkout@v2 
+      - uses: hadolint/hadolint-action@v2.0.0
         with:
           dockerfile: Dockerfile
       
