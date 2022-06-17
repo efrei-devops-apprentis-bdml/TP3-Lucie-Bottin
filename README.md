@@ -84,3 +84,4 @@ Afin que le code pur soit accessible, on push notre code dans un répertoire Git
 
 Image Docker : https://hub.docker.com/repository/docker/luciebottin/efrei-tp3
 Repo GitHub : https://github.com/efrei-devops-apprentis-bdml/TP3-Lucie-Bottin
+Image Azure : efreidevops.azurecr.io/20180304:v1
